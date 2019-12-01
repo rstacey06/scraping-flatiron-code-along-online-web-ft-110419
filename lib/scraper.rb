@@ -16,7 +16,7 @@ doc.css(".post").each do |post|
       course.description = post.css("p").text
       binding.pry
     end
- 
+ end
 Scraper.new.get_page
   
   def print_courses
