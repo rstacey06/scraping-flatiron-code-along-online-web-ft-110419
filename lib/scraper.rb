@@ -18,7 +18,6 @@ class Scraper
     #end
   end
  
-end
 Scraper.new.get_page
   
   def print_courses
